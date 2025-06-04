@@ -55,3 +55,17 @@ git stash pop
 git stash list
 # 저장한 작업목록 전체삭제
 git stash clear
+
+# tag 관련 명령어
+# 가장 최신의 commit의 tag가 명시
+git tag 태크버전명(v1.1)
+# tag release : 코드의 commit, push와 상관없이 별개로 작업진행
+git push origin 태그버전명
+
+# 브랜치 생성
+# 현재 checkout되어있는 브랜치를 기준으로 새로운 브랜치 생성
+git branch 브랜치명
+
+# 새로운 작업시작시, master를 최신화 후 master를 기준으로 branch 생성
+g
+b1
